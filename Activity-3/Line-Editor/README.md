@@ -23,12 +23,12 @@ simple. Insert and delete need to shift lines, which is fine for small documents
 - Bonus: line and word count (`c`)
 
 ## How to Compile
-```
+```Go to the folder first: cd Activity-3/Line-Editor
 gcc line_editor.c -o editor
 ```
 
 ## How to Run
-Go to the folder first: cd Activity-3/Line-Editor
+
 Windows (PowerShell):
 ```
 .\editor
