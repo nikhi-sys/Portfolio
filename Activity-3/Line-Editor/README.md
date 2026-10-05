@@ -28,6 +28,7 @@ gcc line_editor.c -o editor
 ```
 
 ## How to Run
+Go to the folder first: cd Activity-3/Line-Editor
 Windows (PowerShell):
 ```
 .\editor
