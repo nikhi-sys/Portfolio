@@ -69,3 +69,22 @@ Invalid line numbers, deleting from an empty document, and unknown commands all 
 message. The editor does not crash on bad input.
 
 - Example: `d 1` deletes the first line
+## Tips
+- Line numbers start at 1, not 0.
+- Use `a` to add lines quickly, then `i` to squeeze a line in between.
+- Use `p` after every change to check the result.
+- Saving with `w` overwrites the file if it already exists.
+- Loading with `l` replaces everything currently in the editor, so save first if you need it.
+- Empty input is ignored, so pressing Enter by itself is safe.
+
+## Example: fixing a mistake
+```
+> a Helo world
+Appended as line 1.
+> d 1
+Deleted line 1.
+> a Hello world
+Appended as line 1.
+> p
+  1: Hello world
+```
