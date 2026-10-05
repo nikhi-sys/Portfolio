@@ -67,3 +67,5 @@ Saved 1 line(s) to 'out.txt'.
 ## Error messages
 Invalid line numbers, deleting from an empty document, and unknown commands all print a
 message. The editor does not crash on bad input.
+
+- Example: `d 1` deletes the first line
